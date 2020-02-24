@@ -58,9 +58,16 @@ Do your best to optimize your model training and input data to achieve a target 
 
 Create a new README.txt file within the same folder as your AlphabetSoupChallenge.ipynb notebook. Include a 5–10 sentence writeup in your README that addresses the following questions:
 
-
 + How many neurons and layers did you select for your neural network model? Why?
-
-+ Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
+Observing the data, I decided that the columns EIN and Name were neither features nor targets. 
+Also came up with the target variable column "Is_Successful".
+For my first model, I chose 8 neurons in the first hidden layer and 4 neurons in the second. This model only achieved about 58.6% accuracy after 100 epochs.
++ Were you able to achieve the target model performance? What steps did you take to try and increase model performance? 
+To optimize, I tried the following to add one neurons  on hidden layer. This model with 8 neurons in the first layer, 5 neurons in the second layer and reached the accuracy 0f %75.5 after 100 epoches.
 
 + If you were to implement a different model to solve this classification problem, which would you choose? Why?
+Random forest classifiers are what I choose to use for classification into a more robust and accurate model. 
+Random forest models have been popular in machine learning algorithms for many years due to their robustness and scalability. 
+
+
+
