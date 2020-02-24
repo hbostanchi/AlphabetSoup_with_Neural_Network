@@ -56,7 +56,7 @@ Do your best to optimize your model training and input data to achieve a target 
 + Look at Page 19.2.6 for ideas on how to optimize and boost model performance.
 + Note: You will not be penalized if your model does not achieve target performance, as long as you demonstrate an attempt at model optimization within your notebook.
 
-Create a new README.txt file within the same folder as your AlphabetSoupChallenge.ipynb notebook. Include a 5–10 sentence writeup in your README that addresses the following questions:
+### Create a new README.txt file within the same folder as your AlphabetSoupChallenge.ipynb notebook. Include a 5–10 sentence writeup in your README that addresses the following questions:
 
 + How many neurons and layers did you select for your neural network model? Why?
 
