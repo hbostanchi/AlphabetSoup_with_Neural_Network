@@ -52,9 +52,6 @@ Data Sources:
 ## Challenge Summary
 Using our knowledge of machine learning and neural network model building, we created a binary classifier that is capable of predicting whether or not an applicant will be successful if funded by Alphabet Soup using the features collected in the provided dataset.
 
-
-##### Create a new [README.txt](https://github.com/hbostanchi/Neural_Network/blob/master/README.md) file within the same folder as your AlphabetSoupChallenge.ipynb notebook. Include a 5–10 sentence writeup in your README that addresses the following questions:
-
 #### How many neurons and layers did you select for your neural network model? Why?
 
 Observing the data, I decided that the columns EIN and Name were neither features nor targets. 
